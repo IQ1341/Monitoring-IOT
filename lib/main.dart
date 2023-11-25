@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
-import 'utama.dart';
-
-void main() {
+import 'package:firebase_core/firebase_core.dart';
+import 'splashscreen.dart';
+import 'firebase_options.dart';
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+);
   runApp(MyApp());
 }
 
@@ -13,8 +18,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: UtamaPage(),
-      debugShowCheckedModeBanner: false, // Menetapkan ini ke false untuk menghilangkan label debug
+      home: SplashScreen(),
+      debugShowCheckedModeBanner: false, 
+      
     );
   }
 }

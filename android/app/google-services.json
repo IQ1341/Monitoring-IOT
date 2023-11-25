@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "579991564144",
+    "project_id": "monitoring-f8740",
+    "storage_bucket": "monitoring-f8740.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579991564144:android:c54017e007457a003ea9b5",
+        "android_client_info": {
+          "package_name": "com.example.monitoring"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFqaaGvycAJ2tWDf3r1af7lxon0L3NTkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
